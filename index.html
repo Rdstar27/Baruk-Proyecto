@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda Online</title>
+    <title>Tienda Online Baruk CR</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div class="logo">
             <img src="ruta/a/tu/logo.png" alt="Logo de la tienda">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">Conocer más</a></li>
-            </ul>
+        </div <nav>
+        <ul>
+            <li><a href="#">Conocer más</a></li>
+        </ul>
         </nav>
     </header>
     <main>
@@ -36,5 +37,14 @@
         </div>
     </footer>
     <script src="script.js"></script>
+    <script>
+        function calcular() {
+            var precio = parseFloat(document.getElementById("precio").value);
+            var envio = parseFloat(document.getElementById("envio").value);
+            var total = (precio * 700) + envio;
+            document.getElementById("resultado").innerHTML = "El total es: ₡" + total.toFixed(2);
+        }
+    </script>
 </body>
+
 </html>
