@@ -1,0 +1,17 @@
+.contact-button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .titulo-head {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: 24px; /* Ajusta el tamaño de fuente a tu preferencia */
+  }
+  .Subtitulo-head {  
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: 16px; /* Ajusta el tamaño de fuente a tu preferencia */
+  }
+  .texto-intro {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: 14px; /* Ajusta el tamaño de fuente a tu preferencia */
+  }
