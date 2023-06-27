@@ -10,12 +10,15 @@ header {
 }
 
 nav ul {
-  list-style-type: none;
   display: flex;
+  justify-content: center;
 }
 
 nav ul li {
   margin-right: 10px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 nav ul li a {
