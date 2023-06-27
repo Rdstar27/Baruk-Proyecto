@@ -1,17 +1,47 @@
+head {
+  background-color: f5f5f5
+  border-radius: 1%;
+}
+
 .contact-button {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-  }
-  .titulo-head {
-    text-align: center; /* Centra el texto horizontalmente */
-    font-size: 24px; /* Ajusta el tamaño de fuente a tu preferencia */
-  }
-  .Subtitulo-head {  
-    text-align: center; /* Centra el texto horizontalmente */
-    font-size: 16px; /* Ajusta el tamaño de fuente a tu preferencia */
-  }
-  .texto-intro {
-    text-align: center; /* Centra el texto horizontalmente */
-    font-size: 14px; /* Ajusta el tamaño de fuente a tu preferencia */
-  }
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.titulo-head {
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+  border-top-width: 10px;
+}
+
+.Subtitulo-head {
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+.texto-intro {
+  text-align: center;
+  /* Centra el texto horizontalmente */
+  font-size: 14px;
+  /* Ajusta el tamaño de fuente a tu preferencia */
+}
+
+.contact-button {
+  background-color: #00ced1;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-button :hover {
+  background-color: #ddd;
+  /* Color de fondo al pasar el cursor por encima */
+}
